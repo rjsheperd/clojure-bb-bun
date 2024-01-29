@@ -14,5 +14,3 @@ RUN chmod +x /usr/local/bin/bunx
 
 # Install Babashka
 RUN curl -fsSL https://raw.githubusercontent.com/babashka/babashka/master/install | bash
-
-CMD ["/bin/bash"]
